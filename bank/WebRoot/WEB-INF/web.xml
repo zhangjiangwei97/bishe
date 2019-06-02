@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.zjw.Controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.zjw.Controller.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDownload</servlet-name>
+    <servlet-class>com.zjw.Controller.ServletDownload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.zjw.Controller.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>acctinsert</servlet-name>
+    <servlet-class>com.zjw.Controller.acctinsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Acctinsert</servlet-name>
+    <servlet-class>com.zjw.Controller.Acctinsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cardinsert</servlet-name>
+    <servlet-class>com.zjw.Controller.Cardinsert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComplainS</servlet-name>
+    <servlet-class>com.zjw.Controller.ComplainS</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Passchg</servlet-name>
+    <servlet-class>com.zjw.Controller.Passchg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Usermang</servlet-name>
+    <servlet-class>com.zjw.Controller.Usermang</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cqmoney</servlet-name>
+    <servlet-class>com.zjw.Controller.Cqmoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cmoney</servlet-name>
+    <servlet-class>com.zjw.Controller.Cmoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.zjw.Controller.UserController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Reg</servlet-name>
+    <servlet-class>com.zjw.Controller.Reg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Authmag</servlet-name>
+    <servlet-class>com.zjw.Controller.Authmag</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>chartspend</servlet-name>
+    <servlet-class>com.zjw.Controller.chartspend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Chartcard</servlet-name>
+    <servlet-class>com.zjw.Controller.Chartcard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Chartacc</servlet-name>
+    <servlet-class>com.zjw.Controller.Chartacc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TransService</servlet-name>
+    <servlet-class>com.zjw.service.TransService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendCar</servlet-name>
+    <servlet-class>com.zjw.Controller.SendCar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Scorecl</servlet-name>
+    <servlet-class>com.zjw.Controller.Scorecl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mimachg</servlet-name>
+    <servlet-class>com.zjw.Controller.Mimachg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Passch</servlet-name>
+    <servlet-class>com.zjw.Controller.Passch</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDownload</servlet-name>
+    <url-pattern>/ServletDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>acctinsert</servlet-name>
+    <url-pattern>/acctinsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Acctinsert</servlet-name>
+    <url-pattern>/Acctinsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cardinsert</servlet-name>
+    <url-pattern>/Cardinsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComplainS</servlet-name>
+    <url-pattern>/ComplainS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Passchg</servlet-name>
+    <url-pattern>/Passchg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Usermang</servlet-name>
+    <url-pattern>/Usermang</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cqmoney</servlet-name>
+    <url-pattern>/Cqmoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cmoney</servlet-name>
+    <url-pattern>/Cmoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Reg</servlet-name>
+    <url-pattern>/Reg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Authmag</servlet-name>
+    <url-pattern>/Authmag</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chartspend</servlet-name>
+    <url-pattern>/getSpend.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Chartcard</servlet-name>
+    <url-pattern>/getCard.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Chartacc</servlet-name>
+    <url-pattern>/getAcct.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TransService</servlet-name>
+    <url-pattern>/TransService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendCar</servlet-name>
+    <url-pattern>/SendCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Scorecl</servlet-name>
+    <url-pattern>/Scorecl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Mimachg</servlet-name>
+    <url-pattern>/Mimachg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Passch</servlet-name>
+    <url-pattern>/Passch</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
